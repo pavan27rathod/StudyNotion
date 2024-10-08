@@ -1,0 +1,94 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+public/static/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Dependency directories
+public/static/
+
+# Testing coverage
+coverage/
+*.lcov
+
+# Next.js build output (if using Next.js)
+.next/
+
+# Yarn integrity file
+.yarn-integrity
+
+# React Native
+.expo/
+.expo-shared/
+
+# MacOS specific files
+.AppleDouble
+.LSOverride
+
+# Sentry files
+sentry.properties
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files
+*.sqlite
+*.db
+
+# Miscellaneous
+*.tgz
+*.zip
+*.tar.gz
+
+# NPM
+package-lock.json
+yarn.lock
+
+# Build artifacts
+*.o
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# Generated files
+coverage/
+*.seed
+*.test.js
+
+# Other IDEs
+*.iml
+*.classpath
+*.project
+
+# Docker files
+**/Dockerfile
+**/docker-compose.yml
